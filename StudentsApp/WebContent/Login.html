@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+	fieldset
+	{
+		border: 5px solid blue;
+		border-radius: 10px;
+		font-size: 20px;
+	}
+	input 
+	{
+		height: 25px;
+	}
+	input[type="submit"]
+	{
+		height: 30px;
+		width: 150px;
+		border: 2px solid black;
+		background: blue;
+		color: white;
+		border-radius: 5px;
+	}
+</style>
+</head>
+<body>
+	<fieldset>
+		<form action="login" method="post">
+		<label>Reg No. :</label>
+			<input type="number" name="regno" placeholder="Enter reg no">
+			<label>Password :</label>
+			<input type="password" name="pswd" placeholder="Enter Password"><br><br>
+			<input type="submit" value="Sign in">
+		</form>
+	</fieldset>
+</body>
+</html>
